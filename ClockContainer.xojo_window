@@ -30,7 +30,7 @@ Begin ContainerControl ClockContainer
       Index           =   -2147483648
       LockedInPosition=   False
       Mode            =   "2"
-      Period          =   1000
+      Period          =   10
       Scope           =   2
       TabPanelIndex   =   0
       Tolerance       =   0
@@ -42,14 +42,14 @@ Begin ContainerControl ClockContainer
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   100
-      HelpTag         =   ""
+      HelpTag         =   "Flashes on or off every second"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   200
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
       Scope           =   2
       TabIndex        =   1
@@ -59,485 +59,504 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle oneMinute4
+   Begin RoundRectangle oneMinute4
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 minute"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   368
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   2
       TabPanelIndex   =   0
       Top             =   324
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle oneMinute3
+   Begin RoundRectangle oneMinute3
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 minute"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   256
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   3
       TabPanelIndex   =   0
       Top             =   324
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle oneMinute2
+   Begin RoundRectangle oneMinute2
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 minute"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   144
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   4
       TabPanelIndex   =   0
       Top             =   324
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle oneMinute1
+   Begin RoundRectangle oneMinute1
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 minute"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   5
       TabPanelIndex   =   0
       Top             =   324
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle fiveMinute11
+   Begin RoundRectangle fiveMinute11
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   443
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   6
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute10
+   Begin RoundRectangle fiveMinute10
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   401
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   7
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute9
+   Begin RoundRectangle fiveMinute9
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   360
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   8
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute7
+   Begin RoundRectangle fiveMinute7
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   278
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   9
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute8
+   Begin RoundRectangle fiveMinute8
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   319
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   10
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute6
+   Begin RoundRectangle fiveMinute6
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   237
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   11
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute5
+   Begin RoundRectangle fiveMinute5
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   196
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   12
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute4
+   Begin RoundRectangle fiveMinute4
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   155
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   13
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute3
+   Begin RoundRectangle fiveMinute3
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   114
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   14
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute2
+   Begin RoundRectangle fiveMinute2
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   73
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   15
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle fiveMinute1
+   Begin RoundRectangle fiveMinute1
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 minutes"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   16
       TabPanelIndex   =   0
       Top             =   254
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   25
    End
-   Begin Rectangle oneHour4
+   Begin RoundRectangle oneHour4
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 hour"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   368
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   17
       TabPanelIndex   =   0
       Top             =   193
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle oneHour3
+   Begin RoundRectangle oneHour3
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 hour"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   256
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   18
       TabPanelIndex   =   0
       Top             =   193
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle oneHour2
+   Begin RoundRectangle oneHour2
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 hour"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   144
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   19
       TabPanelIndex   =   0
       Top             =   193
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle oneHour1
+   Begin RoundRectangle oneHour1
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 1 hour"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   20
       TabPanelIndex   =   0
       Top             =   193
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle fiveHour4
+   Begin RoundRectangle fiveHour4
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
@@ -548,21 +567,22 @@ Begin ContainerControl ClockContainer
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   21
       TabPanelIndex   =   0
       Top             =   132
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle fiveHour3
+   Begin RoundRectangle fiveHour3
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
@@ -573,21 +593,22 @@ Begin ContainerControl ClockContainer
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   22
       TabPanelIndex   =   0
       Top             =   132
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle fiveHour2
+   Begin RoundRectangle fiveHour2
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
@@ -598,38 +619,40 @@ Begin ContainerControl ClockContainer
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   23
       TabPanelIndex   =   0
       Top             =   132
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100
    End
-   Begin Rectangle fivehour1
+   Begin RoundRectangle fivehour1
       AutoDeactivate  =   True
+      BorderColor     =   &c00000000
       BorderWidth     =   1
-      BottomRightColor=   &c00000000
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 hours"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
+      OvalHeight      =   16
+      OvalWidth       =   16
       Scope           =   2
       TabIndex        =   24
       TabPanelIndex   =   0
       Top             =   132
-      TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
       Width           =   100

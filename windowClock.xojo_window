@@ -5,7 +5,7 @@ Begin Window windowClock
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
-   Frame           =   8
+   Frame           =   6
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
@@ -14,12 +14,12 @@ Begin Window windowClock
    LiveResize      =   True
    MacProcID       =   0
    MaxHeight       =   32000
-   MaximizeButton  =   True
+   MaximizeButton  =   False
    MaxWidth        =   32000
    MenuBar         =   1663995903
    MenuBarVisible  =   True
    MinHeight       =   64
-   MinimizeButton  =   True
+   MinimizeButton  =   False
    MinWidth        =   64
    Placement       =   0
    Resizeable      =   False
