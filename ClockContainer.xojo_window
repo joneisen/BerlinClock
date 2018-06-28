@@ -560,7 +560,7 @@ Begin ContainerControl ClockContainer
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 hours"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   368
@@ -586,7 +586,7 @@ Begin ContainerControl ClockContainer
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 hours"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   256
@@ -612,7 +612,7 @@ Begin ContainerControl ClockContainer
       Enabled         =   True
       FillColor       =   &cFFFFFF00
       Height          =   49
-      HelpTag         =   ""
+      HelpTag         =   "Represents 5 hours"
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   144
