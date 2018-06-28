@@ -5,11 +5,11 @@ Begin Window windowClock
    CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
-   Frame           =   3
+   Frame           =   8
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   600
+   Height          =   400
    ImplicitInstance=   True
    LiveResize      =   True
    MacProcID       =   0
@@ -25,8 +25,8 @@ Begin Window windowClock
    Resizeable      =   False
    Title           =   "Berlin Clock"
    Visible         =   True
-   Width           =   600
-   Begin Container Container1
+   Width           =   500
+   Begin ClockContainer clockContainer
       AcceptFocus     =   False
       AcceptTabs      =   True
       AutoDeactivate  =   True
@@ -36,7 +36,7 @@ Begin Window windowClock
       Enabled         =   True
       EraseBackground =   True
       HasBackColor    =   False
-      Height          =   600
+      Height          =   400
       HelpTag         =   ""
       InitialParent   =   ""
       Left            =   0
@@ -53,7 +53,7 @@ Begin Window windowClock
       Transparent     =   True
       UseFocusRing    =   False
       Visible         =   True
-      Width           =   600
+      Width           =   500
    End
 End
 #tag EndWindow

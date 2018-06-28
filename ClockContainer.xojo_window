@@ -1,5 +1,5 @@
 #tag Window
-Begin ContainerControl Container
+Begin ContainerControl ClockContainer
    AcceptFocus     =   False
    AcceptTabs      =   True
    AutoDeactivate  =   True
@@ -10,14 +10,14 @@ Begin ContainerControl Container
    Enabled         =   True
    EraseBackground =   True
    HasBackColor    =   False
-   Height          =   600
+   Height          =   400
    HelpTag         =   ""
    InitialParent   =   ""
    Left            =   0
-   LockBottom      =   False
-   LockLeft        =   False
-   LockRight       =   False
-   LockTop         =   False
+   LockBottom      =   True
+   LockLeft        =   True
+   LockRight       =   True
+   LockTop         =   True
    TabIndex        =   0
    TabPanelIndex   =   0
    TabStop         =   True
@@ -25,7 +25,7 @@ Begin ContainerControl Container
    Transparent     =   True
    UseFocusRing    =   False
    Visible         =   True
-   Width           =   600
+   Width           =   500
    Begin Xojo.Core.Timer TimerSeconds
       Index           =   -2147483648
       LockedInPosition=   False
@@ -45,7 +45,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   250
+      Left            =   200
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -54,7 +54,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
-      Top             =   123
+      Top             =   20
       Transparent     =   False
       Visible         =   True
       Width           =   100
@@ -69,7 +69,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   418
+      Left            =   368
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -78,7 +78,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   2
       TabPanelIndex   =   0
-      Top             =   427
+      Top             =   324
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -94,7 +94,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   306
+      Left            =   256
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -103,7 +103,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   3
       TabPanelIndex   =   0
-      Top             =   427
+      Top             =   324
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -119,7 +119,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   194
+      Left            =   144
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -128,7 +128,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   4
       TabPanelIndex   =   0
-      Top             =   427
+      Top             =   324
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -144,7 +144,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   82
+      Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -153,7 +153,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   5
       TabPanelIndex   =   0
-      Top             =   427
+      Top             =   324
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -169,7 +169,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   493
+      Left            =   443
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -178,7 +178,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   6
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -194,7 +194,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   451
+      Left            =   401
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -203,7 +203,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   7
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -219,7 +219,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   410
+      Left            =   360
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -228,7 +228,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   8
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -244,7 +244,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   328
+      Left            =   278
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -253,7 +253,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   9
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -269,7 +269,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   369
+      Left            =   319
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -278,7 +278,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   10
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -294,7 +294,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   287
+      Left            =   237
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -303,7 +303,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   11
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -319,7 +319,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   246
+      Left            =   196
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -328,7 +328,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   12
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -344,7 +344,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   205
+      Left            =   155
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -353,7 +353,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   13
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -369,7 +369,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   164
+      Left            =   114
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -378,7 +378,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   14
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -394,7 +394,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   123
+      Left            =   73
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -403,7 +403,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   15
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -419,7 +419,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   82
+      Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -428,7 +428,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   16
       TabPanelIndex   =   0
-      Top             =   357
+      Top             =   254
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -444,7 +444,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   418
+      Left            =   368
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -453,7 +453,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   17
       TabPanelIndex   =   0
-      Top             =   296
+      Top             =   193
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -469,7 +469,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   306
+      Left            =   256
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -478,7 +478,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   18
       TabPanelIndex   =   0
-      Top             =   296
+      Top             =   193
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -494,7 +494,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   194
+      Left            =   144
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -503,7 +503,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   19
       TabPanelIndex   =   0
-      Top             =   296
+      Top             =   193
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -519,7 +519,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   82
+      Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -528,7 +528,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   20
       TabPanelIndex   =   0
-      Top             =   296
+      Top             =   193
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -544,7 +544,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   418
+      Left            =   368
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -553,7 +553,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   21
       TabPanelIndex   =   0
-      Top             =   235
+      Top             =   132
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -569,7 +569,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   306
+      Left            =   256
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -578,7 +578,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   22
       TabPanelIndex   =   0
-      Top             =   235
+      Top             =   132
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -594,7 +594,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   194
+      Left            =   144
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -603,7 +603,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   23
       TabPanelIndex   =   0
-      Top             =   235
+      Top             =   132
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
@@ -619,7 +619,7 @@ Begin ContainerControl Container
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   82
+      Left            =   32
       LockBottom      =   True
       LockedInPosition=   False
       LockLeft        =   True
@@ -628,7 +628,7 @@ Begin ContainerControl Container
       Scope           =   2
       TabIndex        =   24
       TabPanelIndex   =   0
-      Top             =   235
+      Top             =   132
       TopLeftColor    =   &c00000000
       Transparent     =   False
       Visible         =   True
