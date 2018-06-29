@@ -54,6 +54,38 @@ Begin Window windowClock
       UseFocusRing    =   False
       Visible         =   True
       Width           =   500
+      Begin PushButton PushButton1
+         AutoDeactivate  =   True
+         Bold            =   False
+         ButtonStyle     =   "9"
+         Cancel          =   False
+         Caption         =   ""
+         Default         =   False
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "clockContainer"
+         Italic          =   False
+         Left            =   20
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   2
+         TabIndex        =   0
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   20
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   32
+      End
    End
 End
 #tag EndWindow
@@ -61,6 +93,13 @@ End
 #tag WindowCode
 #tag EndWindowCode
 
+#tag Events PushButton1
+	#tag Event
+		Sub Action()
+		  ShowURL( "https://en.wikipedia.org/wiki/Mengenlehreuhr" )
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
 		Name="Name"
