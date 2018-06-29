@@ -59,7 +59,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle oneMinute4
+   Begin RoundRectangle oneMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -67,7 +67,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 minute"
-      Index           =   -2147483648
+      Index           =   3
       InitialParent   =   ""
       Left            =   368
       LockBottom      =   True
@@ -85,7 +85,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle oneMinute3
+   Begin RoundRectangle oneMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -93,7 +93,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 minute"
-      Index           =   -2147483648
+      Index           =   2
       InitialParent   =   ""
       Left            =   256
       LockBottom      =   True
@@ -111,7 +111,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle oneMinute2
+   Begin RoundRectangle oneMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -119,7 +119,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 minute"
-      Index           =   -2147483648
+      Index           =   1
       InitialParent   =   ""
       Left            =   144
       LockBottom      =   True
@@ -137,7 +137,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle oneMinute1
+   Begin RoundRectangle oneMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -145,7 +145,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 minute"
-      Index           =   -2147483648
+      Index           =   0
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
@@ -163,7 +163,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle fiveMinute11
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -171,7 +171,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   11
       InitialParent   =   ""
       Left            =   443
       LockBottom      =   True
@@ -189,7 +189,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute10
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -197,7 +197,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   10
       InitialParent   =   ""
       Left            =   401
       LockBottom      =   True
@@ -215,7 +215,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute9
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -223,7 +223,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   9
       InitialParent   =   ""
       Left            =   360
       LockBottom      =   True
@@ -241,7 +241,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute7
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -249,7 +249,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   7
       InitialParent   =   ""
       Left            =   278
       LockBottom      =   True
@@ -267,7 +267,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute8
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -275,7 +275,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   8
       InitialParent   =   ""
       Left            =   319
       LockBottom      =   True
@@ -293,7 +293,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute6
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -301,7 +301,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   6
       InitialParent   =   ""
       Left            =   237
       LockBottom      =   True
@@ -319,7 +319,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute5
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -327,7 +327,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   5
       InitialParent   =   ""
       Left            =   196
       LockBottom      =   True
@@ -345,7 +345,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute4
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -353,7 +353,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   4
       InitialParent   =   ""
       Left            =   155
       LockBottom      =   True
@@ -371,7 +371,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute3
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -379,7 +379,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   3
       InitialParent   =   ""
       Left            =   114
       LockBottom      =   True
@@ -397,7 +397,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute2
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -405,7 +405,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   2
       InitialParent   =   ""
       Left            =   73
       LockBottom      =   True
@@ -423,7 +423,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle fiveMinute1
+   Begin RoundRectangle fiveMinute
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -431,7 +431,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 minutes"
-      Index           =   -2147483648
+      Index           =   1
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
@@ -449,7 +449,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   25
    End
-   Begin RoundRectangle oneHour4
+   Begin RoundRectangle oneHour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -457,7 +457,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 hour"
-      Index           =   -2147483648
+      Index           =   3
       InitialParent   =   ""
       Left            =   368
       LockBottom      =   True
@@ -475,7 +475,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle oneHour3
+   Begin RoundRectangle oneHour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -483,7 +483,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 hour"
-      Index           =   -2147483648
+      Index           =   2
       InitialParent   =   ""
       Left            =   256
       LockBottom      =   True
@@ -501,7 +501,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle oneHour2
+   Begin RoundRectangle oneHour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -509,7 +509,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 hour"
-      Index           =   -2147483648
+      Index           =   1
       InitialParent   =   ""
       Left            =   144
       LockBottom      =   True
@@ -527,7 +527,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle oneHour1
+   Begin RoundRectangle oneHour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -535,7 +535,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 1 hour"
-      Index           =   -2147483648
+      Index           =   0
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
@@ -553,7 +553,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle fiveHour4
+   Begin RoundRectangle fivehour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -561,7 +561,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 hours"
-      Index           =   -2147483648
+      Index           =   3
       InitialParent   =   ""
       Left            =   368
       LockBottom      =   True
@@ -579,7 +579,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle fiveHour3
+   Begin RoundRectangle fivehour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -587,7 +587,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 hours"
-      Index           =   -2147483648
+      Index           =   2
       InitialParent   =   ""
       Left            =   256
       LockBottom      =   True
@@ -605,7 +605,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle fiveHour2
+   Begin RoundRectangle fivehour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -613,7 +613,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 hours"
-      Index           =   -2147483648
+      Index           =   1
       InitialParent   =   ""
       Left            =   144
       LockBottom      =   True
@@ -631,7 +631,7 @@ Begin ContainerControl ClockContainer
       Visible         =   True
       Width           =   100
    End
-   Begin RoundRectangle fivehour1
+   Begin RoundRectangle fivehour
       AutoDeactivate  =   True
       BorderColor     =   &c00000000
       BorderWidth     =   1
@@ -639,7 +639,7 @@ Begin ContainerControl ClockContainer
       FillColor       =   &cFFFFFF00
       Height          =   49
       HelpTag         =   "Represents 5 hours"
-      Index           =   -2147483648
+      Index           =   0
       InitialParent   =   ""
       Left            =   32
       LockBottom      =   True
@@ -683,196 +683,265 @@ End
 		  
 		  
 		  // 5hour blocks
-		  fivehour1.FillColor = RGB( 205, 92, 92 )
-		  fivehour2.FillColor = RGB( 205, 92, 92 )
-		  fivehour3.FillColor = RGB( 205, 92, 92 )
-		  fivehour4.FillColor = RGB( 205, 92, 92 )
+		  For i As Integer = 0 To 3
+		    fivehour( i ).FillColor = RGB( 205, 92, 92 )
+		  Next
+		  //fivehour1.FillColor = RGB( 205, 92, 92 )
+		  //fivehour2.FillColor = RGB( 205, 92, 92 )
+		  //fivehour3.FillColor = RGB( 205, 92, 92 )
+		  //fivehour4.FillColor = RGB( 205, 92, 92 )
 		  
-		  Select Case xojo.math.Floor( now.Hour / 5 )
-		    
-		  Case 1
-		    fivehour1.FillColor = RGB( 255, 0, 0 )
-		  Case 2
-		    fivehour1.FillColor = RGB( 255, 0, 0 )
-		    fivehour2.FillColor = RGB( 255, 0, 0 )
-		  Case 3
-		    fivehour1.FillColor = RGB( 255, 0, 0 )
-		    fivehour2.FillColor = RGB( 255, 0, 0 )
-		    fivehour3.FillColor = RGB( 255, 0, 0 )
-		  Case 4
-		    fivehour1.FillColor = RGB( 255, 0, 0 )
-		    fivehour2.FillColor = RGB( 255, 0, 0 )
-		    fivehour3.FillColor = RGB( 255, 0, 0 )
-		    fivehour4.FillColor = RGB( 255, 0, 0 )
-		  End Select
+		  Dim fhi As Integer = 0
+		  While fhi < Xojo.Math.Floor( now.Hour / 5 )
+		    fivehour( fhi ).FillColor = RGB( 255, 0, 0 )
+		    fhi = fhi + 1
+		  Wend
+		  
+		  //For i As Integer = 0 To xojo.math.Floor( now.Hour / 5 )
+		  //fivehour( i ).FillColor = RGB( 255, 0, 0 )
+		  //Next
+		  
+		  //Select Case xojo.math.Floor( now.Hour / 5 )
+		  //
+		  //Case 1
+		  //fivehour1.FillColor = RGB( 255, 0, 0 )
+		  //Case 2
+		  //fivehour1.FillColor = RGB( 255, 0, 0 )
+		  //fivehour2.FillColor = RGB( 255, 0, 0 )
+		  //Case 3
+		  //fivehour1.FillColor = RGB( 255, 0, 0 )
+		  //fivehour2.FillColor = RGB( 255, 0, 0 )
+		  //fivehour3.FillColor = RGB( 255, 0, 0 )
+		  //Case 4
+		  //fivehour1.FillColor = RGB( 255, 0, 0 )
+		  //fivehour2.FillColor = RGB( 255, 0, 0 )
+		  //fivehour3.FillColor = RGB( 255, 0, 0 )
+		  //fivehour4.FillColor = RGB( 255, 0, 0 )
+		  //End Select
 		  
 		  
 		  
 		  // 1hour blocks
-		  oneHour1.FillColor = RGB( 205, 92, 92 )
-		  oneHour2.FillColor = RGB( 205, 92, 92 )
-		  oneHour3.FillColor = RGB( 205, 92, 92 )
-		  oneHour4.FillColor = RGB( 205, 92, 92 )
 		  
-		  Select Case xojo.math.Floor( ( now.Hour Mod 5 ) )
-		    
-		  Case 1
-		    oneHour1.FillColor = RGB( 255, 0, 0 )
-		  Case 2
-		    oneHour1.FillColor = RGB( 255, 0, 0 )
-		    oneHour2.FillColor = RGB( 255, 0, 0 )
-		  Case 3
-		    oneHour1.FillColor = RGB( 255, 0, 0 )
-		    oneHour2.FillColor = RGB( 255, 0, 0 )
-		    oneHour3.FillColor = RGB( 255, 0, 0 )
-		  Case 4
-		    oneHour1.FillColor = RGB( 255, 0, 0 )
-		    oneHour2.FillColor = RGB( 255, 0, 0 )
-		    oneHour3.FillColor = RGB( 255, 0, 0 )
-		    oneHour4.FillColor = RGB( 255, 0, 0 )
-		  End Select
+		  For i As Integer = 0 To 3
+		    onehour( i ).FillColor = RGB( 205, 92, 92 )
+		  Next
+		  //oneHour1.FillColor = RGB( 205, 92, 92 )
+		  //oneHour2.FillColor = RGB( 205, 92, 92 )
+		  //oneHour3.FillColor = RGB( 205, 92, 92 )
+		  //oneHour4.FillColor = RGB( 205, 92, 92 )
+		  
+		  Dim ohi As Integer = 0
+		  While ohi < Xojo.Math.Floor( ( now.Hour Mod 5 ) )
+		    oneHour( ohi ).FillColor = RGB( 255, 0, 0 )
+		    ohi = ohi + 1
+		  Wend
+		  
+		  //For i As Integer = 0 To xojo.math.Floor( ( now.Hour Mod 5 ) )
+		  //onehour( i ).FillColor = RGB( 255, 0, 0 )
+		  //Next
+		  
+		  //Select Case xojo.math.Floor( ( now.Hour Mod 5 ) )
+		  //
+		  //Case 1
+		  //oneHour1.FillColor = RGB( 255, 0, 0 )
+		  //Case 2
+		  //oneHour1.FillColor = RGB( 255, 0, 0 )
+		  //oneHour2.FillColor = RGB( 255, 0, 0 )
+		  //Case 3
+		  //oneHour1.FillColor = RGB( 255, 0, 0 )
+		  //oneHour2.FillColor = RGB( 255, 0, 0 )
+		  //oneHour3.FillColor = RGB( 255, 0, 0 )
+		  //Case 4
+		  //oneHour1.FillColor = RGB( 255, 0, 0 )
+		  //oneHour2.FillColor = RGB( 255, 0, 0 )
+		  //oneHour3.FillColor = RGB( 255, 0, 0 )
+		  //oneHour4.FillColor = RGB( 255, 0, 0 )
+		  //End Select
 		  
 		  
 		  // 5 minute blocks
-		  fiveMinute1.FillColor = RGB( 189,183, 107 )
-		  fiveMinute2.FillColor = RGB( 189,183, 107 )
-		  //Every third is red to make it easier to read
-		  fiveMinute3.FillColor = RGB( 205, 92, 92 )
-		  fiveMinute4.FillColor = RGB( 189,183, 107 )
-		  fiveMinute5.FillColor = RGB( 189,183, 107 )
-		  //Every third is red to make it easier to read
-		  fiveMinute6.FillColor = RGB( 205, 92, 92 )
-		  fiveMinute7.FillColor = RGB( 189,183, 107 )
-		  fiveMinute8.FillColor = RGB( 189,183, 107 )
-		  //Every third is red to make it easier to read
-		  fiveMinute9.FillColor = RGB( 205, 92, 92 )
-		  fiveMinute10.FillColor = RGB( 189,183, 107 )
-		  fiveMinute11.FillColor = RGB( 189,183, 107 )
+		  For i As Integer = 1 To 11
+		    If i Mod 3 > 0 Then
+		      fiveMinute( i ).FillColor = RGB( 189,183, 107 )
+		    Else
+		      //Every third is red to make it easier to read
+		      fiveMinute( i ).FillColor = RGB( 205, 92, 92 )
+		    End If
+		  Next
 		  
+		  //fiveMinute1.FillColor = RGB( 189,183, 107 )
+		  //fiveMinute2.FillColor = RGB( 189,183, 107 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 205, 92, 92 )
+		  //fiveMinute4.FillColor = RGB( 189,183, 107 )
+		  //fiveMinute5.FillColor = RGB( 189,183, 107 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute6.FillColor = RGB( 205, 92, 92 )
+		  //fiveMinute7.FillColor = RGB( 189,183, 107 )
+		  //fiveMinute8.FillColor = RGB( 189,183, 107 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute9.FillColor = RGB( 205, 92, 92 )
+		  //fiveMinute10.FillColor = RGB( 189,183, 107 )
+		  //fiveMinute11.FillColor = RGB( 189,183, 107 )
 		  
-		  Select Case xojo.math.Floor( now.Minute / 5 )
-		    
-		  Case 1
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  Case 2
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  Case 3
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  Case 4
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  Case 5
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  Case 6
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		  Case 7
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		  Case 8
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		  Case 9
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute9.FillColor = RGB( 255, 0, 0 )
-		  Case 10
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute9.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute10.FillColor = RGB( 255, 255, 0 )
-		  Case 11
-		    fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		    //Every third is red to make it easier to read
-		    fiveMinute9.FillColor = RGB( 255, 0, 0 )
-		    fiveMinute10.FillColor = RGB( 255, 255, 0 )
-		    fiveMinute11.FillColor = RGB( 255, 255, 0 )
-		  End Select
+		  Dim fmi As Integer = 0
+		  While fmi < Xojo.Math.Floor( now.Minute / 5 )
+		    If (fmi + 1) Mod 3 > 0 Then
+		      fiveMinute( fmi + 1 ).FillColor = RGB( 255, 255, 0 )
+		    Else
+		      //Every third is red to make it easier to read
+		      fiveMinute( fmi + 1 ).FillColor = RGB( 255, 0, 0 )
+		    End If
+		    fmi = fmi + 1
+		  Wend
+		  
+		  //For i As Integer = 1 To xojo.math.Floor( now.Minute / 5 )
+		  //If i Mod 3 > 0 Then
+		  //fiveMinute( i ).FillColor = RGB( 255, 255, 0 )
+		  //Else
+		  ////Every third is red to make it easier to read
+		  //fiveMinute( i ).FillColor = RGB( 255, 0, 0 )
+		  //End If
+		  //Next
+		  
+		  //Select Case xojo.math.Floor( now.Minute / 5 )
+		  //
+		  //Case 1
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //Case 2
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  //Case 3
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //Case 4
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //Case 5
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
+		  //Case 6
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
+		  //Case 7
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
+		  //Case 8
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
+		  //Case 9
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute9.FillColor = RGB( 255, 0, 0 )
+		  //Case 10
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute9.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute10.FillColor = RGB( 255, 255, 0 )
+		  //Case 11
+		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
+		  ////Every third is red to make it easier to read
+		  //fiveMinute9.FillColor = RGB( 255, 0, 0 )
+		  //fiveMinute10.FillColor = RGB( 255, 255, 0 )
+		  //fiveMinute11.FillColor = RGB( 255, 255, 0 )
+		  //End Select
 		  
 		  
 		  // 1 minute blocks
-		  oneMinute1.FillColor = RGB( 189,183, 107 )
-		  oneMinute2.FillColor = RGB( 189,183, 107 )
-		  oneMinute3.FillColor = RGB( 189,183, 107 )
-		  oneMinute4.FillColor = RGB( 189,183, 107 )
+		  For i As Integer = 0 To 3
+		    oneMinute( i ).FillColor = RGB( 189,183, 107 )
+		  Next
 		  
-		  Select Case xojo.math.Floor( ( now.Minute Mod 5 ) )
-		    
-		  Case 1
-		    oneMinute1.FillColor = RGB( 255, 255, 0 )
-		  Case 2
-		    oneMinute1.FillColor = RGB( 255, 255, 0 )
-		    oneMinute2.FillColor = RGB( 255, 255, 0 )
-		  Case 3
-		    oneMinute1.FillColor = RGB( 255, 255, 0 )
-		    oneMinute2.FillColor = RGB( 255, 255, 0 )
-		    oneMinute3.FillColor = RGB( 255, 255, 0 )
-		  Case 4
-		    oneMinute1.FillColor = RGB( 255, 255, 0 )
-		    oneMinute2.FillColor = RGB( 255, 255, 0 )
-		    oneMinute3.FillColor = RGB( 255, 255, 0 )
-		    oneMinute4.FillColor = RGB( 255, 255, 0 )
-		  End Select
+		  //oneMinute1.FillColor = RGB( 189,183, 107 )
+		  //oneMinute2.FillColor = RGB( 189,183, 107 )
+		  //oneMinute3.FillColor = RGB( 189,183, 107 )
+		  //oneMinute4.FillColor = RGB( 189,183, 107 )
+		  
+		  Dim omi As Integer = 0
+		  While omi < Xojo.Math.Floor( ( now.Minute Mod 5 ) )
+		    oneMinute( omi ).FillColor = RGB( 255, 255, 0 )
+		    omi = omi + 1
+		  Wend
+		  
+		  //For i As Integer = 0 To xojo.math.Floor( ( now.Minute Mod 5 ) )
+		  //oneMinute( i ).FillColor = RGB( 255, 255, 0 )
+		  //Next
+		  
+		  //Select Case xojo.math.Floor( ( now.Minute Mod 5 ) )
+		  //
+		  //Case 1
+		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
+		  //Case 2
+		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
+		  //oneMinute2.FillColor = RGB( 255, 255, 0 )
+		  //Case 3
+		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
+		  //oneMinute2.FillColor = RGB( 255, 255, 0 )
+		  //oneMinute3.FillColor = RGB( 255, 255, 0 )
+		  //Case 4
+		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
+		  //oneMinute2.FillColor = RGB( 255, 255, 0 )
+		  //oneMinute3.FillColor = RGB( 255, 255, 0 )
+		  //oneMinute4.FillColor = RGB( 255, 255, 0 )
+		  //End Select
 		End Sub
 	#tag EndEvent
 #tag EndEvents
