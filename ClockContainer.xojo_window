@@ -30,7 +30,7 @@ Begin ContainerControl ClockContainer
       Index           =   -2147483648
       LockedInPosition=   False
       Mode            =   "2"
-      Period          =   10
+      Period          =   50
       Scope           =   2
       TabPanelIndex   =   0
       Tolerance       =   0
@@ -666,30 +666,18 @@ End
 #tag Events TimerSeconds
 	#tag Event
 		Sub Action()
-		  //Dim FillColor As Color = seconds.FillColor
-		  //FillColor.Red = 255 and FillColor.Green = 255 and FillColor.Blue = 0
-		  
 		  Dim now As Xojo.Core.Date = xojo.core.date.now
 		  
 		  If now.Second Mod 2 > 0 Then
-		    
 		    Seconds.FillColor = RGB( 255, 255, 0 )
-		    
 		  Else
-		    
 		    Seconds.FillColor = RGB( 189,183, 107 )
-		    
 		  End If
-		  
 		  
 		  // 5hour blocks
 		  For i As Integer = 0 To 3
 		    fivehour( i ).FillColor = RGB( 205, 92, 92 )
 		  Next
-		  //fivehour1.FillColor = RGB( 205, 92, 92 )
-		  //fivehour2.FillColor = RGB( 205, 92, 92 )
-		  //fivehour3.FillColor = RGB( 205, 92, 92 )
-		  //fivehour4.FillColor = RGB( 205, 92, 92 )
 		  
 		  Dim fhi As Integer = 0
 		  While fhi < Xojo.Math.Floor( now.Hour / 5 )
@@ -697,68 +685,17 @@ End
 		    fhi = fhi + 1
 		  Wend
 		  
-		  //For i As Integer = 0 To xojo.math.Floor( now.Hour / 5 )
-		  //fivehour( i ).FillColor = RGB( 255, 0, 0 )
-		  //Next
-		  
-		  //Select Case xojo.math.Floor( now.Hour / 5 )
-		  //
-		  //Case 1
-		  //fivehour1.FillColor = RGB( 255, 0, 0 )
-		  //Case 2
-		  //fivehour1.FillColor = RGB( 255, 0, 0 )
-		  //fivehour2.FillColor = RGB( 255, 0, 0 )
-		  //Case 3
-		  //fivehour1.FillColor = RGB( 255, 0, 0 )
-		  //fivehour2.FillColor = RGB( 255, 0, 0 )
-		  //fivehour3.FillColor = RGB( 255, 0, 0 )
-		  //Case 4
-		  //fivehour1.FillColor = RGB( 255, 0, 0 )
-		  //fivehour2.FillColor = RGB( 255, 0, 0 )
-		  //fivehour3.FillColor = RGB( 255, 0, 0 )
-		  //fivehour4.FillColor = RGB( 255, 0, 0 )
-		  //End Select
-		  
-		  
-		  
 		  // 1hour blocks
 		  
 		  For i As Integer = 0 To 3
 		    onehour( i ).FillColor = RGB( 205, 92, 92 )
 		  Next
-		  //oneHour1.FillColor = RGB( 205, 92, 92 )
-		  //oneHour2.FillColor = RGB( 205, 92, 92 )
-		  //oneHour3.FillColor = RGB( 205, 92, 92 )
-		  //oneHour4.FillColor = RGB( 205, 92, 92 )
 		  
 		  Dim ohi As Integer = 0
 		  While ohi < Xojo.Math.Floor( ( now.Hour Mod 5 ) )
 		    oneHour( ohi ).FillColor = RGB( 255, 0, 0 )
 		    ohi = ohi + 1
 		  Wend
-		  
-		  //For i As Integer = 0 To xojo.math.Floor( ( now.Hour Mod 5 ) )
-		  //onehour( i ).FillColor = RGB( 255, 0, 0 )
-		  //Next
-		  
-		  //Select Case xojo.math.Floor( ( now.Hour Mod 5 ) )
-		  //
-		  //Case 1
-		  //oneHour1.FillColor = RGB( 255, 0, 0 )
-		  //Case 2
-		  //oneHour1.FillColor = RGB( 255, 0, 0 )
-		  //oneHour2.FillColor = RGB( 255, 0, 0 )
-		  //Case 3
-		  //oneHour1.FillColor = RGB( 255, 0, 0 )
-		  //oneHour2.FillColor = RGB( 255, 0, 0 )
-		  //oneHour3.FillColor = RGB( 255, 0, 0 )
-		  //Case 4
-		  //oneHour1.FillColor = RGB( 255, 0, 0 )
-		  //oneHour2.FillColor = RGB( 255, 0, 0 )
-		  //oneHour3.FillColor = RGB( 255, 0, 0 )
-		  //oneHour4.FillColor = RGB( 255, 0, 0 )
-		  //End Select
-		  
 		  
 		  // 5 minute blocks
 		  For i As Integer = 1 To 11
@@ -769,21 +706,6 @@ End
 		      fiveMinute( i ).FillColor = RGB( 205, 92, 92 )
 		    End If
 		  Next
-		  
-		  //fiveMinute1.FillColor = RGB( 189,183, 107 )
-		  //fiveMinute2.FillColor = RGB( 189,183, 107 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 205, 92, 92 )
-		  //fiveMinute4.FillColor = RGB( 189,183, 107 )
-		  //fiveMinute5.FillColor = RGB( 189,183, 107 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute6.FillColor = RGB( 205, 92, 92 )
-		  //fiveMinute7.FillColor = RGB( 189,183, 107 )
-		  //fiveMinute8.FillColor = RGB( 189,183, 107 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute9.FillColor = RGB( 205, 92, 92 )
-		  //fiveMinute10.FillColor = RGB( 189,183, 107 )
-		  //fiveMinute11.FillColor = RGB( 189,183, 107 )
 		  
 		  Dim fmi As Integer = 0
 		  While fmi < Xojo.Math.Floor( now.Minute / 5 )
@@ -796,152 +718,16 @@ End
 		    fmi = fmi + 1
 		  Wend
 		  
-		  //For i As Integer = 1 To xojo.math.Floor( now.Minute / 5 )
-		  //If i Mod 3 > 0 Then
-		  //fiveMinute( i ).FillColor = RGB( 255, 255, 0 )
-		  //Else
-		  ////Every third is red to make it easier to read
-		  //fiveMinute( i ).FillColor = RGB( 255, 0, 0 )
-		  //End If
-		  //Next
-		  
-		  //Select Case xojo.math.Floor( now.Minute / 5 )
-		  //
-		  //Case 1
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //Case 2
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  //Case 3
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //Case 4
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //Case 5
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  //Case 6
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		  //Case 7
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		  //Case 8
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		  //Case 9
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute9.FillColor = RGB( 255, 0, 0 )
-		  //Case 10
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute9.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute10.FillColor = RGB( 255, 255, 0 )
-		  //Case 11
-		  //fiveMinute1.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute2.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute3.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute4.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute5.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute6.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute7.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute8.FillColor = RGB( 255, 255, 0 )
-		  ////Every third is red to make it easier to read
-		  //fiveMinute9.FillColor = RGB( 255, 0, 0 )
-		  //fiveMinute10.FillColor = RGB( 255, 255, 0 )
-		  //fiveMinute11.FillColor = RGB( 255, 255, 0 )
-		  //End Select
-		  
-		  
 		  // 1 minute blocks
 		  For i As Integer = 0 To 3
 		    oneMinute( i ).FillColor = RGB( 189,183, 107 )
 		  Next
-		  
-		  //oneMinute1.FillColor = RGB( 189,183, 107 )
-		  //oneMinute2.FillColor = RGB( 189,183, 107 )
-		  //oneMinute3.FillColor = RGB( 189,183, 107 )
-		  //oneMinute4.FillColor = RGB( 189,183, 107 )
 		  
 		  Dim omi As Integer = 0
 		  While omi < Xojo.Math.Floor( ( now.Minute Mod 5 ) )
 		    oneMinute( omi ).FillColor = RGB( 255, 255, 0 )
 		    omi = omi + 1
 		  Wend
-		  
-		  //For i As Integer = 0 To xojo.math.Floor( ( now.Minute Mod 5 ) )
-		  //oneMinute( i ).FillColor = RGB( 255, 255, 0 )
-		  //Next
-		  
-		  //Select Case xojo.math.Floor( ( now.Minute Mod 5 ) )
-		  //
-		  //Case 1
-		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
-		  //Case 2
-		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
-		  //oneMinute2.FillColor = RGB( 255, 255, 0 )
-		  //Case 3
-		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
-		  //oneMinute2.FillColor = RGB( 255, 255, 0 )
-		  //oneMinute3.FillColor = RGB( 255, 255, 0 )
-		  //Case 4
-		  //oneMinute1.FillColor = RGB( 255, 255, 0 )
-		  //oneMinute2.FillColor = RGB( 255, 255, 0 )
-		  //oneMinute3.FillColor = RGB( 255, 255, 0 )
-		  //oneMinute4.FillColor = RGB( 255, 255, 0 )
-		  //End Select
 		End Sub
 	#tag EndEvent
 #tag EndEvents
